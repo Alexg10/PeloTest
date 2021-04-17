@@ -1,0 +1,44 @@
+.slick{
+  &-slide{
+    text-align: center;
+  }
+}
+
+.carousel{
+  position: relative;
+  background-color: $secondary-color;
+  padding: 90px 0;
+  &__next,
+  &__prev{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-40%);
+    z-index: 9;
+    cursor: pointer;
+  }
+  &__prev{
+    right: auto;
+    left: 0;
+    svg{
+      transform: rotate(180deg);
+    }
+  }
+  @media screen and (max-width: 680px) {
+    &__next,
+    &__prev{
+      top: 152px;
+      right: 15px;
+      width: 25px;
+      svg{
+        width: 100%;
+      }
+    }
+    &__prev{
+      left: 15px;
+    }
+    .slick-slide{
+      max-width: 70%;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "PeloTest",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "core-js": "^3.9.1",
+    "gsap": "^3.6.1",
+    "jquery": "^3.6.0",
+    "node-sass": "^5.0.0",
+    "nuxt": "^2.15.3",
+    "sass-loader": "^10.1.1",
+    "vue-slick": "^1.1.16"
+  },
+  "devDependencies": {
+    "@nuxtjs/style-resources": "^1.0.0"
+  }
+}
