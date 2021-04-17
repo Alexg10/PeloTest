@@ -38,16 +38,16 @@
 </script>
 
 <style lang="scss" scoped>
-.cursor__container{
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  z-index: 9;
-  pointer-events: none;
-}
-.custom-cursor{
+  .cursor__container{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    pointer-events: none;
+  }
+  .custom-cursor{
     position: absolute;
     background-color: $primary-color;
     width: 15px;
@@ -57,5 +57,9 @@
     transition: 0.5s cubic-bezier(0.75, -1.27, 0.3, 2.33) transform, 0.2 cubic-bezier(0.75, -1.27, 0.3, 2.33) opacity;
     user-select: none;
     pointer-events: none;
-}
+    @media screen and (max-width: 680px) {
+      display: none;
+    }
+
+  }
 </style>
