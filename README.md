@@ -1,4 +1,4 @@
-# PeloTest
+# PeloTest: [Live 🚀](https://pelo-test.vercel.app/)
 
 ## Build Setup
 

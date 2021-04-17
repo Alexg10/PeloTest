@@ -5,9 +5,6 @@ export default {
   generate: {
     fallback: true
   },
-  router: {
-    base: '/app/'
-  },
   head: {
     title: 'PeloTest',
     htmlAttrs: {
