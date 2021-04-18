@@ -59,8 +59,6 @@
     methods: {
       parallax() {
         document.body.onmousemove = event => {
-          const x = event.clientX;
-          const y = event.clientY;
           let halfW = ( document.documentElement.clientWidth / 2 );
           let halfH = ( document.documentElement.clientHeight / 2 );
           let coorX = ( halfW - ( event.pageX - document.documentElement.offsetLeft ) );

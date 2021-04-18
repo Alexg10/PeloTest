@@ -49,7 +49,6 @@
         const heroTitleBottom = this.$refs.heroTitleBottom;
         const heroCover = this.$refs.heroCover;
 
-
         [...document.querySelectorAll('.hero__title span')].map(textWrapper => {
           textWrapper.innerHTML = textWrapper.textContent.replace(
             /\S/g,
@@ -57,6 +56,7 @@
           );
         })
 
+        //Hero intro animation
         var tl = gsap.timeline({delay: 0.9});
         tl.from(heroCover, {scale: 1.2, ease: "power4.inOut", duration: 4}, 'start')
           .from('.letter', { y: 120, opacity: 0, ease: "power4.inOut", stagger: 0.08, duration: 0.8}, 'start')
