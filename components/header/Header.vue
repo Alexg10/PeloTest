@@ -20,7 +20,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    padding-top: 2.6875rem;
+    padding-top: 45px;
     z-index: 2;
     color: $white;
   }

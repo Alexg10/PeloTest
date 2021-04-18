@@ -38,7 +38,7 @@
       &__logo{
         border-radius: 100%;
         width: 64px;
-        margin-right: 20px;
+        margin-right: 12px;
       }
     }
   }

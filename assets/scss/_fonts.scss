@@ -10,22 +10,20 @@
 }
 
 @font-face {
-  font-family: 'Agrandir Wide';
-  src: url('@/assets/fonts/Agrandir-WideBlack.eot');
-  src: url('@/assets/fonts/Agrandir-WideBlack.eot?#iefix') format('embedded-opentype'),
-      url('@/assets/fonts/Agrandir-WideBlack.woff') format('woff'),
-      url('@/assets/fonts/Agrandir-WideBlack.ttf') format('truetype');
-  font-weight: 900;
+  font-family: 'Agrandir Narrow';
+  src: url('@/assets/fonts/Agrandir-Variable.ttf') format('truetype');
+  font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
+
 @font-face {
   font-family: 'Argesta Display';
-  src: url('@/assets/fonts/ArgestaDisplay-Regular.eot');
-  src: url('@/assets/fonts/ArgestaDisplay-Regular.eot?#iefix') format('embedded-opentype'),
-      url('@/assets/fonts/ArgestaDisplay-Regular.woff') format('woff'),
-      url('@/assets/fonts/ArgestaDisplay-Regular.ttf') format('truetype');
+  src: url('@/assets/fonts/ArgestaHairline-Regular.eot');
+  src: url('@/assets/fonts/ArgestaHairline-Regular.eot?#iefix') format('embedded-opentype'),
+      url('@/assets/fonts/ArgestaHairline-Regular.woff') format('woff'),
+      url('@/assets/fonts/ArgestaHairline-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;

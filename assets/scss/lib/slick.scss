@@ -13,7 +13,7 @@
     position: absolute;
     top: 50%;
     right: 0;
-    transform: translateY(-40%);
+    transform: translateY(-34%);
     z-index: 9;
     cursor: pointer;
   }
@@ -27,9 +27,9 @@
   @media screen and (max-width: 680px) {
     &__next,
     &__prev{
-      top: 152px;
+      top: 116px;
       right: 15px;
-      width: 25px;
+      width: 18px;
       svg{
         width: 100%;
       }
@@ -37,8 +37,12 @@
     &__prev{
       left: 15px;
     }
+    .slick-track{
+      display: flex;
+    }
     .slick-slide{
-      max-width: 70%;
+      max-width: 280px;
+      margin: 0 auto;
     }
   }
 }

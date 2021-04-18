@@ -19,13 +19,14 @@ a{
   position: relative;
   display: inline-flex;
   background-color: $primary-color;
+  font-family: 'Agrandir';
   text-transform: uppercase;
   padding: 17px 40px;
   min-width: 240px;
   color: $black;
   border-radius: 2px;
   font-size: 16px;
-  letter-spacing: 0.12rem;
+  letter-spacing: 2.8px;
   font-weight: 900;
   z-index: 2;
   &:after {
@@ -47,13 +48,13 @@ a{
       width: 100%;
     }
     span{
-      transform: translateX(5px);
+      transform: translate(5px, 2px);
       transition: all 0.4s ease;
     }
   }
   span{
-    margin-left: 10px;
-    transform: translateX(0);
+    margin-left: 9px;
+    transform: translate(0px, 2px);
     transition: all 0.4s ease;
   }
 }

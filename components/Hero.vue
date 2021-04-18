@@ -20,7 +20,7 @@
             <span ref="heroTitleBottom">Concrete</span>
           </div>
         </div>
-        <div class="col-md-12 col-lg-3 col-lg-offset-2 align-self-center">
+        <div class="col-md-12 col-lg-3 col-lg-offset-2 align-self-center hero__right">
           <p class="hero__content-right">
             Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
           </p>
@@ -133,12 +133,12 @@
       background-color: #062105;
       opacity: 0.6;
       color: #000;
-      mix-blend-mode: darken;
+      mix-blend-mode: multiply;
       span{
-        font-size: 670px;
+        font-size: 645px;
         position: absolute;
-        top: -89px;
-        right: -53px;
+        top: -85px;
+        right: -52px;
         color: $white;
         mix-blend-mode: lighten;
         font-family: $secondary-font;
@@ -157,17 +157,18 @@
     line-height: 88px;
     max-width: 720px;
     color: $white;
-    letter-spacing: -3px;
-    transform: translateY(-34px);
     span{
       display: inline-block;
       white-space: nowrap;
     }
   }
+  &__right{
+    transform: translateY(58px);
+  }
   &__content-right{
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     line-height: 19px;
-    margin-bottom: 1.375rem;
+    margin-bottom: 24px;
   }
   @media screen and (max-width: 1200px) {
     .row{
@@ -194,6 +195,9 @@
       line-height: 47px;
       margin-bottom: 40px;
       max-width: 540px;
+      transform: translateY(0);
+    }
+    &__right{
       transform: translateY(0);
     }
   }
