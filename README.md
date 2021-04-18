@@ -2,6 +2,7 @@
 
 ## Lib used
 Slick [🔗](https://kenwheeler.github.io/slick/)
+
 Gsap [🔗](https://greensock.com/docs/)
 ## Build Setup
 
